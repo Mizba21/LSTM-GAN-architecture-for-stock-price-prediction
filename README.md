@@ -11,7 +11,7 @@ Such models can be used by investors and economists to beat the market and under
 
 ## Modules
 1. Data (collection, pre-processing and feature engineering)
-   _ Stock price time-series data is collected from Python library yfinance. The historical data contains Open, Low, High, Close, Adjusted Close and Volume attributes. 
+   - Stock price time-series data is collected from Python library yfinance. The historical data contains Open, Low, High, Close, Adjusted Close and Volume attributes. 
    _ Amazon.com Inc. stock is used and data from 01-01-2021 to 01-01-2024 is collected.
    _ Technical indicators like SMA, MACD, RSI, ATR, Bollinger Bands and RSV, and Fourier transform values of closing price of stock are added as additional parameters to the dataset.
    _ XGBoost is performed for feature analysis.
